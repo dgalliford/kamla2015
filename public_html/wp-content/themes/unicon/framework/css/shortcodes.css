@@ -2833,7 +2833,7 @@ ul.styled-list li i{
 }
 
 .full-width-section .wpb_column{
-	padding: 0 !important;
+	/*padding: 0 !important;*/
 }
 
 /* Fix for VC 4.3 margins */
