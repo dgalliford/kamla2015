@@ -1,0 +1,10 @@
+/*CUSTOM CSS BEFORE BEING COMPILED INTO CSS FILE*/
+.masthead-form-header{
+
+}
+.vc_responsive .wpb_row .masthead-form-header .left-column{ padding-left: 0; padding-right: 0; }
+.masthead-form-header h2{
+	color: #fff;
+	font: 700 28px/32px Montserrat, Arial, Helvetica, sans-serif;	
+	margin-bottom: 24px;
+}

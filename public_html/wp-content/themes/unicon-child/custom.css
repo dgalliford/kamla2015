@@ -1,1 +1,77 @@
 /* Custom Styles Go Here */
+
+#topbar{
+	background-color: #222 !important;
+}
+
+/* HEADER STYLES */
+#header{ border-bottom: 5px solid #efe146;}
+#slogan{ margin-top: 39px !important; }
+
+/* MASTHEAD STYLES */
+#msthd { background-size: cover !important; }
+
+.vc_responsive .wpb_row .masthead-form-header .left-column{ padding-left: 0; padding-right: 0; }
+.masthead-form-header h2{ color: #fff; font: 700 28px/32px Montserrat, Arial, Helvetica, sans-serif; margin-bottom: 24px; }
+
+/* FORM ELEMENTS*/
+input[type="text"], input[type="password"], input[type="email"], textarea{
+	border-color: #a7191c;
+	border-radius: 4px;
+	font-size: 16px;
+}
+
+.wpcf7-form .wpcf7-submit, input[type="submit"]{
+	background-color: #7c0200;
+	border-radius: 4px;
+}
+
+.wpcf7-form .wpcf7-submit:hover, input[type="submit"]:hover{ background-color: #a7191c; }
+
+span.wpcf7-list-item-label{ color: #fff; }
+
+/* VIDEO CONTENT*/
+.fluid-width-video-wrapper,
+.home-video img{ border: 5px solid #7c0200; margin-top: 41px !important;}
+
+/* WE'VE COME SO FAR SECTION*/
+
+.section-title h2{
+	color: #cd1f28;
+	font: 700 24px/32px Montserrat, Arial, Helvetica, sans-serif;
+	margin-bottom: 24px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.vc_responsive .wpb_row.remove-lr-padding div[class*="vc_col-sm-"]{
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+/* PM RECORD IN BRIEF SECTION */
+.section-pm-record-brief h2{
+	font: 700 36px/42px Montserrat, Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+}
+
+.full-width-section.section-pm-record-brief .wpb_column.right-column{ padding-top: 64px; }
+.section-prosperity > .col.span_12.color-custom.text-align-center{ max-width: 100%; }
+.section-prosperity > .col.span_12.color-custom.text-align-center > .vc_col-sm-12.wpb_column.column_container.col.no-padding.color-dark{ background: rgba(251,59,65,.9); padding-top: 50px; }
+
+.caption{
+	font-style: italic;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+}
+
+/* SOCIAL FEED SECTION*/
+.section img.social-header-icon{ width: 93px; height: auto; display: block; margin: 0 auto;}
+
+@media (max-width: 959px){
+	div#topbar{background-color: #222 !important;}
+	#mobile-header .sixteen.columns{text-align:center;}
+	#mobile-header .logo{ float: none;}
+	#mobile-navigation-btn{display: none;}
+}
