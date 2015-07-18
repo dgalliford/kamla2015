@@ -18,6 +18,7 @@
 <body <?php body_class('smooth-scroll');?>>
 <!-- Tags for Trinidad Election 2015 -->
 	<script language='JavaScript1.1' src='//pixel.mathtag.com/event/js?mt_id=795456&mt_adid=143856&v1=&v2=&v3=&s1=&s2=&s3='></script>
+	<script language='JavaScript1.1' src='//pixel.mathtag.com/event/js?mt_id=795521&mt_adid=143856&v1=&v2=&v3=&s1=&s2=&s3='></script>
 	<script type="text/javascript">
 		var ftRandom = Math.random()*1000000;
 		document.write('<iframe style="position:absolute; visibility:hidden; width:1px; height:1px;" src="https://servedby.flashtalking.com/container/6744;44712;4969;iframe/?spotName=KamlaView_Landing_Page&cachebuster='+ftRandom+'"></iframe>');
@@ -28,6 +29,15 @@
 		document.write('<iframe style="position:absolute; visibility:hidden; width:1px; height:1px;" src="https://servedby.flashtalking.com/container/6744;44713;4969;iframe/?spotName=Get_Involved_Button&cachebuster='+ftRandom+'"></iframe>');
 
 	</script>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s);
+ js.id = id;
+		js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
 
 	<div class="site-wrapper <?php if ($minti_data['select_layoutstyle'] == 'boxed') {echo 'boxed-layout';} else {echo 'wrapall';}?>">
 
