@@ -10,7 +10,7 @@
 /* ------------------------------------------------------------------------ */
 /* HEADER STYLES
 /* ------------------------------------------------------------------------ */
-#header{ border-bottom: 5px solid #efe146;}
+#header, #mobile-header{ border-bottom: 5px solid #efe146;}
 #slogan{ margin-top: 39px !important; }
 
 /* ------------------------------------------------------------------------ */
@@ -24,6 +24,11 @@
 /* ------------------------------------------------------------------------ */
 /* FORM ELEMENTS
 /* ------------------------------------------------------------------------ */
+
+.wpcf7{
+	clear: both;
+}
+
 input[type="text"], input[type="password"], input[type="email"], textarea{
 	border-color: #a7191c;
 	border-radius: 4px;
@@ -113,6 +118,8 @@ span.wpcf7-list-item-label{ color: #fff; }
             transition: all 0.3s;*/
 }
 
+#copyright{ border-top: 5px solid #efe146;}
+
 /* ------------------------------------------------------------------------ */
 /* MOBILE ONLY STYLES
 /* ------------------------------------------------------------------------ */
@@ -121,4 +128,11 @@ span.wpcf7-list-item-label{ color: #fff; }
 	#mobile-header .sixteen.columns{text-align:center;}
 	#mobile-header .logo{ float: none;}
 	#mobile-navigation-btn{display: none;}
+}
+
+@media (max-width: 767px){
+	.masthead-form-header h2{
+		font-size: 24px;
+		line-height: 30px;
+	}
 }
