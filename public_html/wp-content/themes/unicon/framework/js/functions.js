@@ -1136,9 +1136,21 @@ jQuery(document).ready(function($){
     });
 
 	/* ---------------------------- */
+
+	$("#submit_btn").click(function() {
+	    //place new code here
+	    ftGoalTag44713()
+	});
 	
 }); // end document.ready()
 
+function ftGoalTag44713(){
+	var ftRand = Math.random() + "";
+	var num = ftRand * 1000000000000000000;
+	var ftGoalTagPix44713 = new Image();
+	ftGoalTagPix44713.src = "http://servedby.flashtalking.com/spot/8/6744;44713;4969/?spotName=Get_Involved_Button&cachebuster="+num;
+	ftGoalTagPix44713.onload = console.log("FlashTalking Pixel Loaded Properly")//ftLoaded44713;
+}
 /* ------------------------------------------------------------------------ */
 /* EOF
 /* ------------------------------------------------------------------------ */

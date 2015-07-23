@@ -12,6 +12,25 @@
 <?php if (isset($minti_data['media_favicon_ipad']['url']) && ($minti_data['media_favicon_ipad']['url'] != "")) {?><link rel="apple-touch-icon" sizes="76x76" href="<?php echo esc_url($minti_data['media_favicon_ipad']['url']);?>"><?php }?>
 <?php if (isset($minti_data['media_favicon_ipad_retina']['url']) && ($minti_data['media_favicon_ipad_retina']['url'] != "")) {?><link rel="apple-touch-icon" sizes="152x152" href="<?php echo esc_url($minti_data['media_favicon_ipad_retina']['url']);?>"><?php }?>
 <!-- WordPress Stuff -->
+
+	<!-- Twitter Meta -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:image:src" content="http://www.kamlaview.com/wp-content/uploads/2015/07/kamlaview-poster-image.jpg">
+	<meta name="twitter:domain" content="kamlaview.com">
+	<meta name="twitter:site" content="@pmkamla">
+	<meta name="twitter:creator" content="@pmkamla">
+	<meta name="twitter:description" content="Official Twitter page of the Prime Minister of the Republic of Trinidad and Tobago.">
+	<meta name="twitter:title" content="Kamla2015">
+	<meta name="twitter:url" content="http://kamlaview.com/">
+
+	<!-- Facebook Meta -->
+	<meta property="og:url" content="http://www.kamlaview.com">
+	<meta property="og:title" content="Kamla P. Bissessar">
+	<meta property="og:description" content="I have the honour and responsibility to guide the Nation of Trinidad and Tobago on behalf of my fellow Citizens.">
+	<meta property="og:site_name" content="Kamla 2015">
+	<meta property="og:image" content="http://www.kamlaview.com/wp-content/uploads/2015/07/kamlaview-poster-image.jpg">
+
+
 <?php wp_head();?>
 </head>
 
@@ -25,9 +44,8 @@
 	</script>
 <!-- Secure Conditional Container Tag: Trinidad Election 2015 (6744) | Get Involved Button (44713) | Trinidad Election 2015 (4969) | Expected URL: http://www.kamlaview.com/ -->
 	<script type="text/javascript">
-		var ftRandom = Math.random()*1000000;
-		document.write('<iframe style="position:absolute; visibility:hidden; width:1px; height:1px;" src="https://servedby.flashtalking.com/container/6744;44713;4969;iframe/?spotName=Get_Involved_Button&cachebuster='+ftRandom+'"></iframe>');
-
+		//var ftRandom = Math.random()*1000000;
+		//document.write('<iframe style="position:absolute; visibility:hidden; width:1px; height:1px;" src="https://servedby.flashtalking.com/container/6744;44713;4969;iframe/?spotName=Get_Involved_Button&cachebuster='+ftRandom+'"></iframe>');
 	</script>
 	<div id="fb-root"></div>
 	<script>(function(d, s, id) {
