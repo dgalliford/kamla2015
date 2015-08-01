@@ -44,6 +44,15 @@ input[type="text"], input[type="password"], input[type="email"], textarea{
 
 span.wpcf7-list-item-label{ color: #fff; }
 
+span.wpcf7-not-valid-tip {
+    color: #efe146;
+}
+
+div.wpcf7-validation-errors {
+	color: #000; 
+	background: #efe146 !important;
+}
+
 /* ------------------------------------------------------------------------ */
 /* VIDEO CONTENT
 /* ------------------------------------------------------------------------ */

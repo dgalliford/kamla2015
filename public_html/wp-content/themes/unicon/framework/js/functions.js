@@ -1137,10 +1137,10 @@ jQuery(document).ready(function($){
 
 	/* ---------------------------- */
 
-	$("#submit_btn").click(function() {
+	//$("#submit_btn").click(function() {
 	    //place new code here
-	    ftGoalTag44713()
-	});
+	    
+	//});
 	
 }); // end document.ready()
 

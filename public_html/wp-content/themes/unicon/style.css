@@ -3327,7 +3327,7 @@ blockquote.right {
 .wpcf7-form .invalid{color:#bf1515!important;}
 .wpcf7-not-valid{ border-color: #bf1515 !important;}
 /*.wpcf7 span.wpcf7-not-valid-tip{color:rgba(0,0,0,0.6);;margin-top:-1px;background:rgba(0,0,0,0.05);padding:4px 10px;border-radius:0 0 2px 2px;}*/
-.wpcf7 span.wpcf7-not-valid-tip, .wpcf7-validation-errors{ display: none !important; }
+/*.wpcf7 span.wpcf7-not-valid-tip, .wpcf7-validation-errors{ display: none !important; } */
 div.wpcf7-response-output{margin:0!important;padding:5px 10px!important;}
 div.wpcf7-mail-sent-ok,div.wpcf7-mail-sent-ng,div.wpcf7-spam-blocked,div.wpcf7-validation-errors{position:relative;display:block;text-align:center;border-radius:2px;font-weight:700;padding:12px 40px 12px 20px!important;/*border:1px solid #edbbbb !important;*/border:none!important;background-color:#44bdbd;color:#ffffff;margin:0 0 30px!important;}
 div.wpcf7-mail-sent-ok{color:#ffffff;}
