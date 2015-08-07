@@ -38,6 +38,11 @@ input[type="text"], input[type="password"], input[type="email"], textarea{
 .wpcf7-form .wpcf7-submit, input[type="submit"]{
 	background-color: #7c0200;
 	border-radius: 4px;
+	font-size: 18px;
+	width: 85%;
+	margin: 0 auto;
+	margin-top: 30px;
+	display: block;
 }
 
 .wpcf7-form .wpcf7-submit:hover, input[type="submit"]:hover{ background-color: #a7191c; }
@@ -70,6 +75,10 @@ div.wpcf7-validation-errors {
 	text-transform: uppercase;
 }
 
+.section-title.form-title h2{
+	color: #fff;
+}
+
 .vc_responsive .wpb_row.remove-lr-padding div[class*="vc_col-sm-"]{
 	padding-left: 0 !important;
 	padding-right: 0 !important;
@@ -97,7 +106,8 @@ div.wpcf7-validation-errors {
 /* ------------------------------------------------------------------------ */
 /* SOCIAL FEED SECTION
 /* ------------------------------------------------------------------------ */
-.section img.social-header-icon{ width: 93px; height: auto; display: block; margin: 0 auto;}
+.section img.social-header-icon,
+.section img.form-title-icon{ width: 93px; height: auto; display: block; margin: 0 auto; margin-bottom: 20px;}
 
 
 /* ------------------------------------------------------------------------ */
@@ -128,6 +138,34 @@ div.wpcf7-validation-errors {
 }
 
 #copyright{ border-top: 5px solid #efe146;}
+
+
+/* ------------------------------------------------------------------------ */
+/* MASTHEAD STYLES
+/* ------------------------------------------------------------------------ */
+.tp-bullets.simplebullets.round .bullet {
+	background: url(/wp-content/themes/unicon-child/framework/images/bullets.png) no-repeat top left;
+	width: 10px;
+	height: 10px;
+	margin-left: 10px;
+}
+
+.masthead-caption{
+font: 700 36px Montserrat, Arial, Helvetica, sans-serif;
+color: #efe146;
+text-shadow: 0 0 30px rgba(0,0,0,.5);
+text-transform: uppercase;
+}
+
+.page-masthead{
+	min-height: 0px;
+}
+
+.page-masthead h2{
+	color: #cd1f28;
+	font: 700 72px/60px Montserrat, Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+}
 
 /* ------------------------------------------------------------------------ */
 /* MOBILE ONLY STYLES
