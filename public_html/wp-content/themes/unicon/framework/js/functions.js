@@ -616,7 +616,7 @@ jQuery(document).ready(function($){
 		var $root = $('html, body');
 		$('.pagescroll .menu a[href*=#], a[href*=#].pagescroll, .pagescroll > a[href*=#]').on('click', function(event){     
 		    //event.preventDefault();
-		    $root.animate({scrollTop: $(this.hash).offset().top - $('#header').height() + 1}, 260, 'easeOutSine');
+		    $root.animate({scrollTop: $(this.hash).offset().top - $('#header').height() + 1}, 1200, 'easeOutQuart');
 		    $(this).blur();
 		    return false;
 		});
@@ -1142,6 +1142,17 @@ jQuery(document).ready(function($){
 	    
 	//});
 	
+	/*$(function(){
+		if($('div').hasClass('lg_ytvideo')){
+			var w= $(".content_base.lg_ytvideo .epyt-gallery iframe").width();
+			$(".content_base.lg_ytvideo .epyt-gallery iframe").height(w*0.58656330749354);
+			$(window).resize(function(){
+				var w= $(".content_base.lg_ytvideo .epyt-gallery iframe").width();
+				$(".content_base.lg_ytvideo .epyt-gallery iframe").height(w*0.58656330749354);
+			});
+		}
+	})*/
+	
 }); // end document.ready()
 
 function ftGoalTag44713(){
@@ -1151,6 +1162,7 @@ function ftGoalTag44713(){
 	ftGoalTagPix44713.src = "http://servedby.flashtalking.com/spot/8/6744;44713;4969/?spotName=Get_Involved_Button&cachebuster="+num;
 	ftGoalTagPix44713.onload = console.log("FlashTalking Pixel Loaded Properly")//ftLoaded44713;
 }
+
 /* ------------------------------------------------------------------------ */
 /* EOF
 /* ------------------------------------------------------------------------ */
